@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.tree.indent": 16,
+		"workbench.tree.renderIndentGuides": "always",
+		"workbench.view.alwaysShowHeaderActions": true
+	}
+}

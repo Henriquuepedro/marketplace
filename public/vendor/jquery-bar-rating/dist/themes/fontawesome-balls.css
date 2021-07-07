@@ -1,0 +1,40 @@
+.br-theme-fontawesome-balls .br-widget {
+  height: 20px;
+  white-space: nowrap;
+}
+.br-theme-fontawesome-balls .br-widget a {
+  font: normal normal normal 16px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  margin-right: 2px;
+}
+.br-theme-fontawesome-balls .br-widget a:after {
+  content: '\f10c';
+  color: #d2d2d2;
+}
+.br-theme-fontawesome-balls .br-widget a.br-active:after {
+  content: '\f111';
+  color: #6ced67;
+}
+.br-theme-fontawesome-balls .br-widget a.br-selected:after {
+  content: '\f111';
+  color: #6ced67;
+}
+.br-theme-fontawesome-balls .br-widget .br-current-rating {
+  display: none;
+}
+.br-theme-fontawesome-balls .br-readonly a {
+  cursor: default;
+}
+@media print {
+  .br-theme-fontawesome-balls .br-widget a:after {
+    content: '\f10c';
+    color: black;
+  }
+  .br-theme-fontawesome-balls .br-widget a.br-active:after,
+  .br-theme-fontawesome-balls .br-widget a.br-selected:after {
+    content: '\f111';
+    color: black;
+  }
+}

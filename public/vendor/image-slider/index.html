@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>jQuery imageSlider Plugin Demo</title>
+<style>
+* {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+h1 {
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+}
+.my-slider {
+	height: 450px;
+	margin: 0 auto;
+	/*width: 900px;*/
+	width: 100%;
+}
+.my-slider ul {
+	height: 450px;
+	overflow: hidden;
+}
+.my-slider li {
+	float: left;
+}
+</style>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="jquery.imageslider.js"></script>
+<script>
+$(function() {
+	$('.js-imageslider').imageslider({
+		slideItems: '.my-slider-item',
+		slideContainer: '.my-slider-list',
+		slideDistance: 5,
+		slideDuratin: 800,
+		resizable: true,
+		pause: true
+	});
+});
+</script>
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/slider/Responsive-jQuery-Horizontal-Image-Scroller-Plugin-imageSlider.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<h1 style="margin-top:150px; margin-bottom:50px;">jQuery imageSlider Plugin Demo</h1>
+
+<div class="my-slider js-imageslider">
+<ul class="my-slider-list">
+<li class="my-slider-item"><img src="http://placehold.it/900x450&amp;text=No.01" width="900" alt=""></li>
+<li class="my-slider-item"><img src="http://placehold.it/900x450&amp;text=No.02" width="900" alt=""></li>
+<li class="my-slider-item"><img src="http://placehold.it/900x450&amp;text=No.03" width="900" alt=""></li>
+</ul>
+<!-- /.js-imageslider --></div>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
